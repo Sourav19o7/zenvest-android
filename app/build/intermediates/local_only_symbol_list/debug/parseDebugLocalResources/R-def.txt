@@ -28,6 +28,7 @@ color success
 color surface
 color surface_variant
 color warning
+drawable leaf
 string add
 string app_name
 string back

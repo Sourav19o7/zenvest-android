@@ -75,7 +75,7 @@ fun DashboardHomeScreen(
         // Welcome Header
         item {
             Text(
-                text = "Welcome back, ${uiState.userName}!",
+                text = "Welcome back, Rajesh",
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground

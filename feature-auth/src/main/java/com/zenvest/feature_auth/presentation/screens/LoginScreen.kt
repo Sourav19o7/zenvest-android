@@ -33,12 +33,16 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.zenvest.core.ui.components.ButtonVariant
 import com.zenvest.core.ui.components.ZenvestButton
 import com.zenvest.core.ui.components.ZenvestEmailField
+import com.zenvest.core.R
 import com.zenvest.feature_auth.presentation.viewmodel.AuthEvent
 import com.zenvest.feature_auth.presentation.viewmodel.AuthViewModel
 
@@ -99,11 +103,20 @@ fun LoginScreen(
                         ),
                     contentAlignment = Alignment.Center
                 ) {
-                    Text(
-                        text = "Z",
-                        style = MaterialTheme.typography.headlineLarge,
-                        color = MaterialTheme.colorScheme.onPrimary,
-                        fontWeight = FontWeight.Bold
+//                    Text(
+//                        text = "Z",
+//                        style = MaterialTheme.typography.headlineLarge,
+//                        color = MaterialTheme.colorScheme.onPrimary,
+//                        fontWeight = FontWeight.Bold
+//                    )
+
+                    Image(
+                        colorFilter = ColorFilter.tint(
+                            Color.White
+                        ),
+                        painter = painterResource(R.drawable.leaf),
+                        contentDescription = "",
+                        modifier = Modifier.size(30.dp)
                     )
                 }
 
