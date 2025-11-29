@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zenvest.app-mergeDebugResources-72:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/souravdey/.gradle/caches/8.9/transforms/f6c729490fb401d2a5a78595dcb837c5/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

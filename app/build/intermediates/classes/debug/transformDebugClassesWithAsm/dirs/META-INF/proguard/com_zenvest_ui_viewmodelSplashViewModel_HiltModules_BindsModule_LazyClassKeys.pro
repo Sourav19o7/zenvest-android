@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.zenvest.ui.viewmodel.SplashViewModel

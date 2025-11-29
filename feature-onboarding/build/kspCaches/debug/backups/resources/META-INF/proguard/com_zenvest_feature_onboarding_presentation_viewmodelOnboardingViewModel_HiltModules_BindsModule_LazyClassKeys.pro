@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.zenvest.feature_onboarding.presentation.viewmodel.OnboardingViewModel

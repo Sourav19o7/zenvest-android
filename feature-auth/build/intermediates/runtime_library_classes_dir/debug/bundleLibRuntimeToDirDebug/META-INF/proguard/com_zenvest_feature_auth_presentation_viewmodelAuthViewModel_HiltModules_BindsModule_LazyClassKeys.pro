@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.zenvest.feature_auth.presentation.viewmodel.AuthViewModel

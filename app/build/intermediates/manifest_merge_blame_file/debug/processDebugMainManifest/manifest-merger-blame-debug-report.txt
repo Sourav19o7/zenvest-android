@@ -1,0 +1,301 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zenvest.app.debug"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+13-->[androidx.biometric:biometric:1.4.0-alpha02] /Users/souravdey/.gradle/caches/8.9/transforms/bee8bac80c11e632605efdbcc1e9d263/transformed/biometric-1.4.0-alpha02/AndroidManifest.xml:22:5-72
+13-->[androidx.biometric:biometric:1.4.0-alpha02] /Users/souravdey/.gradle/caches/8.9/transforms/bee8bac80c11e632605efdbcc1e9d263/transformed/biometric-1.4.0-alpha02/AndroidManifest.xml:22:22-69
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->[androidx.biometric:biometric:1.4.0-alpha02] /Users/souravdey/.gradle/caches/8.9/transforms/bee8bac80c11e632605efdbcc1e9d263/transformed/biometric-1.4.0-alpha02/AndroidManifest.xml:25:5-74
+14-->[androidx.biometric:biometric:1.4.0-alpha02] /Users/souravdey/.gradle/caches/8.9/transforms/bee8bac80c11e632605efdbcc1e9d263/transformed/biometric-1.4.0-alpha02/AndroidManifest.xml:25:22-71
+15
+16    <permission
+16-->[androidx.core:core:1.15.0] /Users/souravdey/.gradle/caches/8.9/transforms/0fa43f4bf3e8fd1d1e3f6fba8adb4bf1/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.zenvest.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.15.0] /Users/souravdey/.gradle/caches/8.9/transforms/0fa43f4bf3e8fd1d1e3f6fba8adb4bf1/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.15.0] /Users/souravdey/.gradle/caches/8.9/transforms/0fa43f4bf3e8fd1d1e3f6fba8adb4bf1/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.zenvest.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.15.0] /Users/souravdey/.gradle/caches/8.9/transforms/0fa43f4bf3e8fd1d1e3f6fba8adb4bf1/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.15.0] /Users/souravdey/.gradle/caches/8.9/transforms/0fa43f4bf3e8fd1d1e3f6fba8adb4bf1/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:7:5-47:19
+23        android:name="com.zenvest.ZenvestApp"
+23-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:8:9-35
+24        android:allowBackup="true"
+24-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:9:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.15.0] /Users/souravdey/.gradle/caches/8.9/transforms/0fa43f4bf3e8fd1d1e3f6fba8adb4bf1/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:label="@string/app_name"
+28-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:10:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:13:9-69
+30        android:supportsRtl="true"
+30-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:11:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Zenvest" >
+32-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:12:9-45
+33        <activity
+33-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:15:9-45:20
+34            android:name="com.zenvest.MainActivity"
+34-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:16:13-41
+35            android:exported="true"
+35-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:17:13-36
+36            android:launchMode="singleTask"
+36-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:18:13-44
+37            android:theme="@style/Theme.Zenvest" >
+37-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:19:13-49
+38            <intent-filter>
+38-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:20:13-23:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:21:17-69
+39-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:21:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:22:17-77
+41-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:22:27-74
+42            </intent-filter>
+43
+44            <!-- Deep link for consent callback -->
+45            <intent-filter android:autoVerify="true" >
+45-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:26:13-33:29
+45-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:26:28-53
+46                <action android:name="android.intent.action.VIEW" />
+46-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:27:17-69
+46-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:27:25-66
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:28:17-76
+48-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:28:27-73
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:29:17-78
+49-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:29:27-75
+50
+51                <data
+51-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:30:17-32:46
+52                    android:host="consent"
+52-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:32:21-43
+53                    android:scheme="zenvest" />
+53-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:31:21-45
+54            </intent-filter>
+55
+56            <!-- HTTP/HTTPS deep links for web redirects -->
+57            <intent-filter android:autoVerify="true" >
+57-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:36:13-44:29
+57-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:36:28-53
+58                <action android:name="android.intent.action.VIEW" />
+58-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:27:17-69
+58-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:27:25-66
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:28:17-76
+60-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:28:27-73
+61                <category android:name="android.intent.category.BROWSABLE" />
+61-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:29:17-78
+61-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:29:27-75
+62
+63                <data
+63-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:30:17-32:46
+64                    android:host="zenvest.app"
+64-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:32:21-43
+65                    android:pathPrefix="/consent/callback"
+65-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:43:21-59
+66                    android:scheme="https" />
+66-->/Users/souravdey/Projects/zenvest-app/app/src/main/AndroidManifest.xml:31:21-45
+67            </intent-filter>
+68        </activity>
+69
+70        <service
+70-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:24:9-32:19
+71            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+71-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:25:13-94
+72            android:enabled="true"
+72-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:26:13-35
+73            android:exported="false" >
+73-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:29:13-31:104
+75                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+75-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:30:17-76
+76                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+76-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:31:17-101
+77        </service>
+78
+79        <activity
+79-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:34:9-41:20
+80            android:name="androidx.credentials.playservices.HiddenActivity"
+80-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:35:13-76
+81            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+81-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:36:13-87
+82            android:enabled="true"
+82-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:37:13-35
+83            android:exported="false"
+83-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:38:13-37
+84            android:fitsSystemWindows="true"
+84-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:39:13-45
+85            android:theme="@style/Theme.Hidden" >
+85-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:40:13-48
+86        </activity>
+87        <activity
+87-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:42:9-49:20
+88            android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+88-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:43:13-97
+89            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+89-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:44:13-87
+90            android:enabled="true"
+90-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:45:13-35
+91            android:exported="false"
+91-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:46:13-37
+92            android:fitsSystemWindows="true"
+92-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:47:13-45
+93            android:theme="@style/Theme.Hidden" >
+93-->[androidx.credentials:credentials-play-services-auth:1.5.0-alpha05] /Users/souravdey/.gradle/caches/8.9/transforms/f546cf6c74cb6d8bcdf70f032a0732e5/transformed/credentials-play-services-auth-1.5.0-alpha05/AndroidManifest.xml:48:13-48
+94        </activity>
+95        <activity
+95-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:23:9-27:75
+96            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+96-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:24:13-93
+97            android:excludeFromRecents="true"
+97-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:25:13-46
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:26:13-37
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:27:13-72
+100        <!--
+101            Service handling Google Sign-In user revocation. For apps that do not integrate with
+102            Google Sign-In, this service will never be started.
+103        -->
+104        <service
+104-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:33:9-37:51
+105            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+105-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:34:13-89
+106            android:exported="true"
+106-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:35:13-36
+107            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+107-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:36:13-107
+108            android:visibleToInstantApps="true" />
+108-->[com.google.android.gms:play-services-auth:21.3.0] /Users/souravdey/.gradle/caches/8.9/transforms/f362b68e5158fe20cfbd7be1c6f9ad90/transformed/play-services-auth-21.3.0/AndroidManifest.xml:37:13-48
+109
+110        <activity
+110-->[com.google.android.gms:play-services-base:18.5.0] /Users/souravdey/.gradle/caches/8.9/transforms/a7cee70d2547f5432dd700ed37fc5f7b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+111-->[com.google.android.gms:play-services-base:18.5.0] /Users/souravdey/.gradle/caches/8.9/transforms/a7cee70d2547f5432dd700ed37fc5f7b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-base:18.5.0] /Users/souravdey/.gradle/caches/8.9/transforms/a7cee70d2547f5432dd700ed37fc5f7b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-base:18.5.0] /Users/souravdey/.gradle/caches/8.9/transforms/a7cee70d2547f5432dd700ed37fc5f7b/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+114
+115        <meta-data
+115-->[com.google.android.gms:play-services-basement:18.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/905b07fe8cc8620202d480061bfdbd3b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+116            android:name="com.google.android.gms.version"
+116-->[com.google.android.gms:play-services-basement:18.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/905b07fe8cc8620202d480061bfdbd3b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+117            android:value="@integer/google_play_services_version" />
+117-->[com.google.android.gms:play-services-basement:18.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/905b07fe8cc8620202d480061bfdbd3b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+118
+119        <uses-library
+119-->[androidx.wear.compose:compose-foundation:1.5.5] /Users/souravdey/.gradle/caches/8.9/transforms/5984af5021e5bc09c04c21e30259136f/transformed/compose-foundation-1.5.5/AndroidManifest.xml:23:9-25:40
+120            android:name="wear-sdk"
+120-->[androidx.wear.compose:compose-foundation:1.5.5] /Users/souravdey/.gradle/caches/8.9/transforms/5984af5021e5bc09c04c21e30259136f/transformed/compose-foundation-1.5.5/AndroidManifest.xml:24:13-36
+121            android:required="false" />
+121-->[androidx.wear.compose:compose-foundation:1.5.5] /Users/souravdey/.gradle/caches/8.9/transforms/5984af5021e5bc09c04c21e30259136f/transformed/compose-foundation-1.5.5/AndroidManifest.xml:25:13-37
+122
+123        <activity
+123-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/f8dcc2bf234dd36d3c9f7c43d67fb494/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:23:9-26:79
+124            android:name="androidx.activity.ComponentActivity"
+124-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/f8dcc2bf234dd36d3c9f7c43d67fb494/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:24:13-63
+125            android:exported="true"
+125-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/f8dcc2bf234dd36d3c9f7c43d67fb494/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:25:13-36
+126            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+126-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/f8dcc2bf234dd36d3c9f7c43d67fb494/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:26:13-76
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+130            android:authorities="com.zenvest.app.debug.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/6881048396e81d772ae1f397f37c11bb/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/souravdey/.gradle/caches/8.9/transforms/7ad1a1ee67a731bab012be72777ab4a3/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/souravdey/.gradle/caches/8.9/transforms/7ad1a1ee67a731bab012be72777ab4a3/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/souravdey/.gradle/caches/8.9/transforms/7ad1a1ee67a731bab012be72777ab4a3/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+140                android:value="androidx.startup" />
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+141        </provider>
+142
+143        <activity
+143-->[androidx.compose.ui:ui-tooling-android:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/2da38db435eeb7e955a17eb77eccc4f3/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+144            android:name="androidx.compose.ui.tooling.PreviewActivity"
+144-->[androidx.compose.ui:ui-tooling-android:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/2da38db435eeb7e955a17eb77eccc4f3/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+145            android:exported="true" />
+145-->[androidx.compose.ui:ui-tooling-android:1.8.2] /Users/souravdey/.gradle/caches/8.9/transforms/2da38db435eeb7e955a17eb77eccc4f3/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+146
+147        <receiver
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+148            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+148-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+149            android:directBootAware="false"
+149-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+150            android:enabled="true"
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+151            android:exported="true"
+151-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+152            android:permission="android.permission.DUMP" >
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+154                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+154-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+154-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+155            </intent-filter>
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+157                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+157-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+157-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+158            </intent-filter>
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+160                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+160-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+163                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/souravdey/.gradle/caches/8.9/transforms/ed06621724e9a33ee561a79225d8033a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+164            </intent-filter>
+165        </receiver>
+166    </application>
+167
+168</manifest>

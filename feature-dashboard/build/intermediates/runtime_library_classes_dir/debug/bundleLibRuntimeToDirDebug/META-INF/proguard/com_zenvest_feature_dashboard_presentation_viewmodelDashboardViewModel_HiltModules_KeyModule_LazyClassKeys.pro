@@ -1,0 +1,4 @@
+-keep,allowobfuscation,allowshrinking class com.zenvest.feature_dashboard.presentation.viewmodel.GoalsViewModel
+-keep,allowobfuscation,allowshrinking class com.zenvest.feature_dashboard.presentation.viewmodel.GoalsViewModel
+-keep,allowobfuscation,allowshrinking class com.zenvest.feature_dashboard.presentation.viewmodel.DashboardViewModel
+-keep,allowobfuscation,allowshrinking class com.zenvest.feature_dashboard.presentation.viewmodel.DashboardViewModel
